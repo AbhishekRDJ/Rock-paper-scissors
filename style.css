@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+header{
+    background-color:rgb(9, 21, 43);
+    color:white;
+    height: 6rem;
+}
+#mode {
+    height: 50px;
+    line-height: 50px;
+
+
+
+
+    position: absolute; /* Position the button absolutely */
+    top: 10px; /* Adjust top position */
+    right: 10px; /* Adjust right position */
+    background-color:black; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline-block */
+    font-size: 16px; /* Increase font size */
+    margin: 3px 1px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    transition-duration: 0.4s; /* 0.4 second transition effect to hover state */
+    border-radius: 10%;
+    box-shadow: 0 0 100px rgb(0, 176, 252)
+}
+
+#mode:hover {
+    background-color: white; /* White background on hover */
+    color: black; /* Black text on hover */
+    border: 2px solid #4CAF50; /* Green border */
+}
+
+h1{
+    text-align: center;
+    line-height: 5rem;
+    font-size: 50px;
+    
+}
+.choices,.choices2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+
+  }
+
+.choice,.choice2{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 50%;
+    
+    
+
+
+}
+.choice:hover{
+    opacity: 0.8;
+    background-color: rgb(9, 21, 43);
+    cursor: pointer;
+    box-shadow: 0 0 100px rgb(234, 255, 0);
+
+}
+
+.onclickevent{
+    opacity: 0.8;
+    background-color: rgb(9, 21, 43);
+    cursor: pointer;
+    box-shadow: 0 0 50px aqua;
+    
+
+
+}
+.choice2:hover{
+    opacity: 0.8;
+    background-color: rgb(9, 21, 43);
+    cursor: pointer;
+    box-shadow: 0 0 100px rgb(234, 255, 0);
+
+}
+
+.choice.hovered {
+    opacity: 0.8;
+    background-color: rgb(9, 21, 43);
+    cursor: pointer;
+    box-shadow: 0 0 100px rgb(234, 255, 0);
+}
+
+.choice2.hovered {
+    opacity: 0.8;
+    background-color: rgb(9, 21, 43);
+    cursor: pointer;
+    box-shadow: 0 0 100px rgb(234, 255, 0);
+    
+}
+#stone,#paper,#scissors{
+    height: 200px;
+    width:200px;
+    object-fit:cover;
+    border-radius: 50%;
+    
+}
+#stone2,#paper2,#scissors2{
+    height: 200px;
+    width:200px;
+    object-fit:cover;
+    border-radius: 50%;
+    
+}
+.score_board{
+    display: flex;
+    justify-content: center;
+    line-height: 3rem;
+    font-size: 2rem;
+    gap: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+#user1{
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px ;
+    padding-right: 40px ;
+     */
+     padding: 5px;
+
+    border-radius: 5%;
+    background-color:  rgb(177, 231, 255);
+
+}
+#Computer1{
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px ;
+    padding-right: 40px ; */
+    padding: 5px;
+    border-radius: 5%;
+    background-color:  rgb(177, 231, 255);
+
+}
+#user{
+    display: flex;
+    justify-content: center;
+    line-height: 3rem;
+    font-size: 2rem;
+    gap: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    padding: 10px;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px ;
+    padding-right: 40px ;
+    
+    border-radius: 10%;
+    background-color:  rgb(177, 231, 255);
+
+}
+#Computer{
+    display: flex;
+    justify-content: center;
+    line-height: 3rem;
+    font-size: 2rem;
+    gap: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+    border-radius: 10%;
+    background-color:  rgb(177, 231, 255);
+
+
+}
+.Winner_show h3{
+    display: inline;
+    gap: 2rem;
+    justify-content: center;
+    background-color: rgb(177, 231, 255);
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: 10 10 100px rgb(6, 57, 119);
+    
+
+    
+}
+.msg{
+    
+    background-color: #081b31;
+    color:rgb(9, 21, 43);
+    font-size: 2rem;
+    
+    /* display: inline; */
+    padding: 1rem;
+    border-radius: 2rem;
+    
+}
